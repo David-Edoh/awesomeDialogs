@@ -20,18 +20,18 @@ class AwesomeDialogHeader extends StatelessWidget {
   Widget build(BuildContext context) {
     switch (dialogType) {
       case DialogType.info:
-        return const Icon(Icons.info, color: Colors.blueAccent, size: 20,);
+        return const Icon(Icons.info, color: Colors.blueAccent, size: 60,);
       case DialogType.infoReverse:
-        return const Icon(Icons.info_outline, color: Colors.blueAccent, size: 20);
+        return const Icon(Icons.info_outline, color: Colors.blueAccent, size: 60);
 
       case DialogType.question:
-        return const Icon(Icons.question_mark_outlined, color: Colors.grey, size: 20);
+        return const Icon(Icons.question_mark_outlined, color: Colors.grey, size: 60);
       case DialogType.warning:
-        return const Icon(Icons.warning, color: Colors.yellow, size: 20);
+        return const Icon(Icons.warning, color: Colors.yellow, size: 60);
       case DialogType.error:
-        return const Icon(Icons.error, color: Colors.red, size: 20);
+        return const Icon(Icons.error, color: Colors.red, size: 60);
       case DialogType.success:
-        return const Icon(Icons.thumb_up, color: Colors.green, size: 20);
+        return const Icon(Icons.thumb_up, color: Colors.green, size: 60);
       case DialogType.noHeader:
         return const SizedBox.shrink();
     }
